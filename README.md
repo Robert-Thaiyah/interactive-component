@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git Repo](https://github.com/Robert-Thaiyah/interactive-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Livesite URL](https://robert-thaiyah.github.io/interactive-component/)
 
 ## My process
 
