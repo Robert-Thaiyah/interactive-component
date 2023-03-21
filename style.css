@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    min-height: 100svh;
+    font-family: 'Overpass', sans-serif;
+} 
+
+img{
+    max-width: 100%;
+}
+
+
+.container {
+    /* position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    margin: 10px;
+    /* font-size: clamp(1rem, 50vw, 1rem); */
+}
+
+.container h1{
+    font-size: 25px;
+    color: hsl(217, 12%, 73%);
+}
+
+.container h3 {
+    color: hsl(216, 12%, 54%);
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.container .star{
+    background-color: hsl(213, 19%, 28%);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.star img {
+    height: 40%;
+}
+
+.radio-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+input[type="radio"] {
+   display: none;
+}
+
+label{
+    position: relative;
+    color: hsl(217, 12%, 73%);
+    background-color: hsl(216, 12%, 50%);
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+  
+label:hover{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+
+input[type="radio"]:checked + label {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.btn{
+    width: 80%;
+    padding: 10px 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    translate: 10%;
+    border-radius: 40px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: all 0.5s  ease;
+}
+
+
+/* thank you container */
+.submit-container  {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    margin: 10px;
+}
+
+.submit-container .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.submit-container .rate{
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    background-color:  hsl(216, 12%, 24%);
+    border-radius: 30px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin:0 auto;
+}
+
+.submit-container h3{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.submit-container .details{
+    color:hsl(216, 12%, 54%) ;
+    text-align: center;
+    /* width: 20%; */
+}
+
+.btn-again{
+    width: 80%;
+    padding: 10px 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    translate: 10%;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+}
+
+.thank-you {
+    display: none;
+}
+
+
+/* @media screen and (max-width: 768px) {
+    .container h1{
+        font-size: 2.3rem;
+    }
+
+    .container h3{
+    font-size: 1.8rem;
+}
+
+label{
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+}
+
+.btn{
+    width: 80%;
+    padding: 30px 30px;
+    font-size: 2rem;
+}
+
+} */
